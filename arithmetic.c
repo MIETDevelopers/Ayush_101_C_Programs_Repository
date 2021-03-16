@@ -2,23 +2,24 @@
  
 int main()
 {
-    int num1, num2, result;
+    int num1, num2;
+    int sum, sub, mult, div;
     printf("Enter two numbers: \n");
  
     scanf("%d %d", &num1, &num2);
-    result = num1 + num2;
-    printf("num1+num2 = %d\n", result);
+    sum = num1 + num2;   //Sum of two numbers
+    printf("num1+num2 = %d\n", sum);
  
-    result = num1 - num2;
+    sub = num1 - num2;   //Subtraction of two numbers
   
-    printf("num1 - num2 = %d\n", result);
+    printf("num1 - num2 = %d\n", sub);
  
-    result = num1 * num2;
+    mult = num1 * num2;   //Multiplication of twi numbers
    
-    printf("num1 * num2 = %d\n", result);
+    printf("num1 * num2 = %d\n", mult);
  
-    result = num1 / num2;
+    div = num1 / num2;   //Division of two numbers
 
-    printf("num1 / num2 = %d\n", result);
+    printf("num1 / num2 = %d\n", div);
     return 0;
 }
