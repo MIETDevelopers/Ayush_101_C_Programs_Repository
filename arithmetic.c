@@ -2,19 +2,23 @@
  
 int main()
 {
-    int a = 10, b = 4, result;
-    printf("a is %d and b is %d\n", a, b);
+    int num1, num2, result;
+    printf("Enter two numbers: \n");
  
-    result = a + b;
-    printf("a+b = %d\n", result);
+    scanf("%d %d", &num1, &num2);
+    result = num1 + num2;
+    printf("num1+num2 = %d\n", result);
  
-    result = a - b;
-    printf("a-b = %d\n", result);
+    result = num1 - num2;
+  
+    printf("num1 - num2 = %d\n", result);
  
-    result = a * b; // multiplication
-    printf("a*b = %d\n", result);
+    result = num1 * num2;
+   
+    printf("num1 * num2 = %d\n", result);
  
-    result = a / b;
-    printf("a/b = %d\n", result);
+    result = num1 / num2;
+
+    printf("num1 / num2 = %d\n", result);
     return 0;
 }
