@@ -10,8 +10,8 @@ int main()  // main function body
     int sum, sub, mult, div;
  
     //print two numbers given by user
-    printf("Enter two numbers: \n"); 
-    scanf("%d %d", &num1, &num2);
+    printf("Enter two numbers: \n"); //print Enter two numbers:
+    scanf("%d %d", &num1, &num2);  //taking input for num1 and  num2 from user
  
     sum = num1 + num2;   //Sum of two numbers
     printf("num1+num2 = %d\n", sum); //print sum of two numbers
