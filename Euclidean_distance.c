@@ -1,8 +1,8 @@
 // Author: Ayush Bhat
 // Creation Date: 17/3/21
 // Purpose Of The Program:To find the Eucledian distance between two points
-#include<stdio.h>  // preprocessor directive to include header file having standard input and output functions
-#include<math.h>  // preprocessor directive to include header file having math functions
+#include<stdio.h>  // preprocessor directive to include "stdio.h" header file having standard input and output functions
+#include<math.h>  // preprocessor directive to include "math.h" header file having math functions
   
 int main()  // main function body
 {  
