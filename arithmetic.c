@@ -1,7 +1,7 @@
 // Author: Ayush Bhat
 // Creation Date: 16/3/21
 // Purpose Of The Program: Arithmetic operations using addition, subtraction, multiplication and remainder operator
-#include <stdio.h>  // preprocessor directive to include header file having standard input and output functions
+#include <stdio.h>  // preprocessor directive to include "stdio.h" header file having standard input and output functions
  
 int main()  // main function body
 {
