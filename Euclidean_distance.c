@@ -9,12 +9,12 @@ int main()  // main function body
     float x1, y1, x2, y2, distance;  //variable declaration of float data type
  
   //taking first point's coordinate
-    printf("Enter point 1 (x1, y1)\n");  
-    scanf("%f%f", &x1, &y1);  
+    printf("Enter point 1 (x1, y1)\n");  //printing Enter point 1 (x1 , y1)
+    scanf("%f%f", &x1, &y1);   //taking x1, y1 from user
   
   //taking second point's coordinate
-    printf("Enter point 2 (x2, y2)\n");  
-    scanf("%f%f", &x2, &y2);  
+    printf("Enter point 2 (x2, y2)\n");  //printing Enter point 2 (x2 , y2)
+    scanf("%f%f", &x2, &y2);  //taking x2, y2 from user
   
     distance = sqrt( (x2 - x1)*(x2 - x1) + (y2 - y1)*(y2 - y1) );  //calculating distance
   
