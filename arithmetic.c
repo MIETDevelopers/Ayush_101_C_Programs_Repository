@@ -14,7 +14,7 @@ int main()  // main function body
     scanf("%d %d", &num1, &num2);  //taking input for num1 and  num2 from user
  
     sum = num1 + num2;   //Sum of two numbers
-    printf("num1+num2 = %d\n", sum); //print sum of two numbers
+    printf("num1 + num2 = %d\n", sum); //print sum of two numbers
  
     sub = num1 - num2;   //Subtraction of two numbers
     printf("num1 - num2 = %d\n", sub); //print subtraction of two numbers
