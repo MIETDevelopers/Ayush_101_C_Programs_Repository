@@ -1,13 +1,13 @@
 // Author: Ayush Bhat
 // Creation Date: 16/3/21
-// Purpose Of The Program: Arithmetic operations using addition, subtraction, multiplication and remainder operator
+// Purpose Of The Program: Arithmetic operations using addition, subtraction and multiplication operator
 #include <stdio.h>  // preprocessor directive to include "stdio.h" header file having standard input and output functions
  
 int main()  // main function body
 {
  // declaration of variables of int data type
     int num1, num2;  
-    int sum, sub, mult, div;
+    int sum, sub, mult;
  
     //print two numbers given by user
     printf("Enter two numbers: \n"); //print Enter two numbers:
@@ -21,8 +21,5 @@ int main()  // main function body
  
     mult = num1 * num2;   //Multiplication of twi numbers
     printf("num1 * num2 = %d\n", mult);  //print multiplication of two numbers
- 
-    div = num1 / num2;   //Division of two numbers 
-    printf("num1 / num2 = %d\n", div);  //print division of two numbers
     return 0;
 }
