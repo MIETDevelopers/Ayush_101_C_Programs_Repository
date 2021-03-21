@@ -10,4 +10,7 @@ int main(){  // main function body
 	printf("\nArea of Rectangle: %f",(legthOfRectangle*breadthOfRectangle));  //area of rectangle
 	return 0;
 }
+<<<<<<< HEAD
 © 2021 GitHub, Inc.
+=======
+>>>>>>> d6eca3272e957df3637bfdd0277ca634454906bb
