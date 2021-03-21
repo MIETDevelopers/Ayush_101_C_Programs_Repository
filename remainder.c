@@ -16,4 +16,8 @@ int main() {  //main function body
     printf("Quotient = %d\n", quotient);  //print Quotient
     printf("Remainder = %d", remainder);  //print Remainder
     return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 4285b35e6f0239b968a08b64e439335cc4656493
