@@ -1,6 +1,6 @@
 // Author: Ayush Bhat
 // Creation Date: 17/3/21
-// Purpose Of The Program:To find the area and perimeter of circle, square and rectangle based on user choice
+// Purpose Of The Program:To find the area of circle, square and rectangle based on user choice
 #include<stdio.h>  // preprocessor directive to include "stdio.h" header file having standard input and output functions
 int main(){  // main function body
 	float raduisOfCircle, sideOfSquare, legthOfRectangle, breadthOfRectangle;  //declaration of variables of float data type
