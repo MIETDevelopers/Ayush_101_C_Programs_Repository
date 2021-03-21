@@ -15,7 +15,7 @@ int main ()  //main function body
    printf("  The Fibonacci Series is:");  //print The Fibonacci Series
     printf("  \n %d \n %d",first,second);  //print first and second number of series
  
- //starting of for loop
+ //starting of for loop from 2 because 0 and 1 already printed
   for (i = 2; i <= n; i++)  
  
     {
