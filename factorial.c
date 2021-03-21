@@ -11,9 +11,4 @@ int main()    //main function body
       fact=fact*i;    
   }    
   printf("Factorial of %d is: %d",number,fact);    //print the value of Factorial of number
-return 0;  
-<<<<<<< HEAD
-}
-=======
-}   
->>>>>>> d6eca3272e957df3637bfdd0277ca634454906bb
+return 0;
