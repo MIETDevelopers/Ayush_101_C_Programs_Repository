@@ -4,7 +4,7 @@
 #include<stdio.h>  // preprocessor directive to include "stdio.h" header file having standard input and output functions
 int main()  // main function body
 {  
-  int Number, Remainder, Sum=0;  //variable declaration, intialization of sum
+  int Number, Reminder, Sum=0;  //variable declaration, intialization of sum
 
   printf("Please Enter any number\n");  //print Please Enter any number
   scanf("%d", &Number);  //takes number from user
@@ -12,7 +12,7 @@ int main()  // main function body
   while(Number > 0)//Using while loop.
   {
   	//This is the formula to calculate sum of digits
-     Remainder = Number % 10;
+     Reminder = Number % 10;
      Sum = Sum+Reminder;
      Number = Number / 10;
   }
