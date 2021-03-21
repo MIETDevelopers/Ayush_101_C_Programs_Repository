@@ -31,9 +31,4 @@ int main ()  //main function body
     }
  
   return 0;
-<<<<<<< HEAD
 }
-=======
- 
-}
->>>>>>> 4285b35e6f0239b968a08b64e439335cc4656493
