@@ -1,5 +1,5 @@
 // Author: Ayush Bhat
-// Creation Date: 17/3/21
+// Creation Date: 20/3/21
 // Purpose Of The Program: Print numbers from 1 to 5
 #include <stdio.h>  // preprocessor directive to include "stdio.h" header file having standard input and output functions
 int main()  //main function body
