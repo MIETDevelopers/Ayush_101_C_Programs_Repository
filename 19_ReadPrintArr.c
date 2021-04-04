@@ -17,7 +17,7 @@ struct s {    //varible declaration of structure data type
 		printf("Enter Text: ");  //print Enter Text:
 		gets(a[i].text); //Scanning the entered text.
 	}
-	//Writing program.
+	//Writing program
 	fwrite(a,sizeof(a),1,fptr);
 	fclose(fptr);
 	fptr=fopen("C:\\Users\\CAIP\\Desktop\\C_Programs\\Akhil_104_C_Prorgams_Repository\\019readwrite_array.c","rb");
