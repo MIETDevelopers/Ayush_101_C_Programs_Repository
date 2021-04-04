@@ -1,4 +1,4 @@
-// Author:Kavya Dhar
+// Author:Ayush bhat
 // Creation date: 21/03/21
 // C program for Reading CSV files (Comma sepaarated files)
 #include <stdio.h>  // preprocessor directive to include "stdio.h" header file having standard input and output functions
