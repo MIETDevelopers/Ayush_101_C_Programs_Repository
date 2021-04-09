@@ -11,7 +11,7 @@ struct s {    //varible declaration of structure data type
 	struct s a[1000],b[1000];  //varible declaration of structure data type
 	FILE *fptr;
 	int i;  //variable declaration of integer data type
-	fptr=fopen("C:\\Users\\CAIP\\Desktop\\C_Programs\\Akhil_104_C_Prorgams_Repository\\019readwrite_array.c","wb");
+	fptr=fopen("C:\\Users\\Desktop\\Ayush_101_C_Prorgams_Repository\\019readwrite_array.c","wb");
 	for (i=0;i<1;++i) {
 		fflush(stdin);
 		printf("Enter Text: ");  //print Enter Text:
@@ -20,7 +20,7 @@ struct s {    //varible declaration of structure data type
 	//Writing program
 	fwrite(a,sizeof(a),1,fptr);
 	fclose(fptr);
-	fptr=fopen("C:\\Users\\CAIP\\Desktop\\C_Programs\\Akhil_104_C_Prorgams_Repository\\019readwrite_array.c","rb");
+	fptr=fopen("C:\\Users\\Desktop\\Ayush_101_C_Prorgams_Repository\\019readwrite_array.c","rb");
 	fread(b,sizeof(b),1,fptr);
 	printf("\n Entered details are:\n");  //print Entered Details are
 	for (i=0;i<1;++i) {
